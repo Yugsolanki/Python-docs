@@ -1,0 +1,39 @@
+---
+title: Interactive Mode
+sidebar_position: 2
+---
+
+### Interactive Mode in Python
+
+import Link from '@docusaurus/Link';
+
+In Python, interactive mode allows you to interactively enter and execute commands directly into the interpreter. When you enter commands from a terminal, Python prompts you with the primary prompt `>>>` to enter a command. If a command spans multiple lines, Python uses the secondary prompt `...` for continuation lines.
+
+Here's what you'll typically see when entering interactive mode:
+
+```
+$ python3.12
+Python 3.12 (default, April 4 2022, 09:25:04)
+[GCC 10.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+```
+
+In this mode, you can enter Python expressions and statements directly, and Python will execute them immediately.
+
+For example:
+
+```python
+>>> the_world_is_flat = True
+
+>>> if the_world_is_flat:
+...     print("Be careful not to fall off!")
+...
+Be careful not to fall off!
+```
+
+Here, we've entered a multi-line `if` statement, and Python executed it line by line, printing the result.
+
+Interactive mode is useful for quickly testing code snippets, experimenting with language features, and debugging. It provides immediate feedback and allows you to iterate rapidly.
+
+For more information on interactive mode and its features, you can refer to the <Link to="/docs/category/appendix">Interactive mode</Link> section of the documentation.
